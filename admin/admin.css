@@ -1,0 +1,319 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+
+body {
+	height:100%;
+	
+	font-family: "Helvetica Neue", "Helvetica", sans-serif;
+	background-color: white;
+
+	
+}
+
+html {
+	min-height:100%;
+	height: 100%;
+}
+#nav {
+	color:black;
+	width:100px;
+	background-color:#FCF5E5;
+	float:left;
+	border-right: 1px solid black;
+
+	
+}
+#navRest {
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1;
+	width:100px;
+	background-color:#FCF5E5;
+		border-right: 1px solid black;
+
+}
+
+
+
+
+#navSpacer {
+	height:25px;
+}
+
+#nav h2 {
+	font-size: 1.875em;
+	font-weight: 500;
+	padding: 14px 25px;
+	
+	
+}
+
+
+#nav img {
+	margin: auto;
+	padding-left: 25px;
+	width:50px;
+	padding-top:25px;
+}
+
+
+
+
+.navDiv {
+	width: 100%;
+	height: 3px;
+	background-color: black;
+}
+.navHover {
+	color: white;
+	background-color: black;
+	
+}
+#content {
+	max-width:1800px;
+	width:75%;
+	margin:auto;
+	color:black;
+	background-color:white;
+/*	border-left: 1px solid black;*/
+	
+}
+.height100 {
+	height:100px;
+}
+.height150 {
+	height:150px;
+}
+.height200 {
+	height:200px;
+}
+#header {
+	margin:auto;
+	text-align:center;
+}
+
+#homeButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.width50 {
+	width:50px;
+}
+.width100 {
+	width:100px;
+}
+.width150 {
+	width:150px;
+}
+
+.homeButton {
+	border-style: solid;
+
+	text-align: center;
+	color:black;
+	background-color:white;
+	border-width: 3px;
+	border-color: black;
+}
+.homeButton h2 {
+	font-size: 1.875em;
+	font-weight: 500;
+	padding:20px;
+	
+}
+.navLink {
+	min-height:100px;
+	min-width:100px;
+}
+.navLine
+{
+	height: 1px;
+	background-color:#515B63;
+}
+
+.navItem {
+	height:100px;
+	width:100px;
+}
+
+.red {
+	color:#E62A2B;
+	text-decoration-color: currentColor;
+}
+.blue {
+	color:#1C8EE3;
+	text-decoration-color: currentColor;
+}
+.purple{
+	color:#361C72;
+	text-decoration-color: currentColor;
+
+}
+.green{
+	color:#5DA179;
+	text-decoration-color: currentColor;
+
+}
+.orange{
+	color:#F57A3E;
+}
+#content h1 {
+	
+	font-weight:600;
+	font-size: 4em;
+	
+}
+#content h3 {
+	
+	font-weight:400;
+	font-size: 1.5em;
+	padding-right: 30px;
+	padding-top:30px;
+	width:30%;
+	text-align: right;
+/*	align-self: flex-end;*/
+	
+	
+}
+
+#titleBar {
+
+}
+#content h5{
+	font-size: 4em;
+	font-weight: 200;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+.topBox {
+
+
+	width:24%;
+	display:inline-block;
+	
+}
+
+#topRow {
+	display: flex;
+}
+
+.left {
+}
+
+.right {
+}
+
+#content p {
+	font-size:1.5625em;
+	margin-bottom:20px;
+	font-weight:200;
+	
+	
+}
+
+#bottomRow {
+
+}
+
+#top {
+}
+
+#clients {
+	width:50%;
+	margin-left: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:black;
+	margin-top:20px;
+
+	
+}
+
+#coaches {
+	width:50%;
+}
+
+h1 {
+	
+}
+table {
+	font-size:1.5625em;
+	margin-left: 20px;
+	margin-bottom:20px;
+	font-weight:300;
+}
+tr {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.boxHolder {
+	width:25%;
+}
+
+.halfWidth {
+	width:50%;
+
+}
+#homeTopPad {
+	width:100%;
+	height:32%;
+}
+#homeMidPad{
+	width:100%;
+	height:70px;
+}

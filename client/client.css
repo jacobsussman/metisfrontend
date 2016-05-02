@@ -1,0 +1,206 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.client {
+    width:60%;
+    margin: auto;
+}
+
+.headerRight {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.client p {
+    font-size: 1.15em;
+    font-weight: 200;
+    color: #4C4C4C;
+}
+
+.settings {
+    padding-top:7px;
+    padding-right: 15px;
+}
+
+.gear {
+    width:40;
+}
+
+.logo {
+    width:120px;
+}
+
+.bigCoach {
+    width:190px;
+    float:right; 
+}
+
+.c1 .img {
+    width:37.5%;
+    float:left;
+}
+
+
+
+.c1 .txt {
+ width:62.5%;
+    float:right;
+}
+
+.client h1 {
+    font-size:1.9em;
+    font-weight:500;
+    
+}
+
+.txt h1 {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.c1 p {
+    
+
+    padding-left: 30px;
+    line-height: 200%;
+}
+
+.c1 h5 {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    display: block;
+    float:left;
+    
+    border-left-style:solid;
+    border-left-width: 2px;
+    border-left-color: #959595;
+    
+}
+
+.c1 .buttons {
+    padding-left:30px;
+    padding-top:22px;
+}
+
+.c2 .buttons {
+    padding-top:12px;
+    
+}
+
+.blue {
+    color:#4936F6;
+}
+
+.client h5 {
+    font-size:1.15em;
+    font-weight: 500;
+    
+}
+
+.c2 .form {
+    width:60%;
+    margin:auto;
+}
+
+.c2 h1 {
+    padding-bottom: 15px;
+    
+}
+
+.c2 form {
+    
+    padding-top:15px;
+    
+}
+
+input[type=text], select {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.15em;
+    color:#797979;
+    font-weight: 400;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 1.15em;
+    color:#797979;
+    font-weight: 400;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size: 1.15em;
+    color:#797979;
+    font-weight: 400;  
+}
+
+:-ms-input-placeholder {  
+   font-size: 1.15em;
+    color:#797979;
+    font-weight: 400;  
+}
+
+.c2 h5 {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    
+    border-left-style:solid;
+    border-left-width: 2px;
+    border-left-color: #959595;
+    
+}
+
+.w50 {
+    width:50px;
+}
+
+.c3 p {
+    padding-left: 30px;
+    line-height: 150%;
+}
+
+.c3 .txt {
+ width:65%;
+    float:right;
+}
+
+.c3 .img {
+    width:35%;
+    float:left;
+}
+
+.c3 .buttons {
+    padding-left:30px;
+    padding-top:22px;
+    
+}
+
+.c3 h5 {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    display: block;
+    float:left;
+    
+    border-left-style:solid;
+    border-left-width: 2px;
+    border-left-color: #959595;
+}
+
+.c3 .bigCoach {
+    padding-top: 15px;
+}
