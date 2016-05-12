@@ -202,12 +202,12 @@ h6 {
     justify-content: space-around;
     align-content: center;
     height: 250px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 h7 {
     text-align: left;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 600px;
 }
 
@@ -220,4 +220,22 @@ h7 {
 }
 .bodyTxt {
     max-width:90%;
+}
+
+.rel {
+        position:relative;
+
+}
+
+.bot20 {
+        bottom:20px;
+
+}
+
+.font80 {
+    font-size: .8em;
+}
+
+.right50 {
+    right:50px;
 }

@@ -35,7 +35,7 @@
     width:120px;
 }
 
-.bigCoach {
+.c1 .bigCoach {
     width:190px;
     float:right; 
 }
@@ -58,15 +58,15 @@
     
 }
 
-.txt h1 {
-    padding-left: 30px;
+.c1 h1 {
+    padding-left: 40px;
     padding-bottom: 10px;
 }
 
 .c1 p {
     
 
-    padding-left: 30px;
+    padding-left: 40px;
     line-height: 200%;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .c1 .buttons {
-    padding-left:30px;
+    padding-left:40px;
     padding-top:22px;
 }
 
@@ -169,7 +169,7 @@ input[type=text], select {
 }
 
 .c3 p {
-    padding-left: 30px;
+    padding-left: 40px;
     line-height: 150%;
 }
 
@@ -184,7 +184,7 @@ input[type=text], select {
 }
 
 .c3 .buttons {
-    padding-left:30px;
+    padding-left:40px;
     padding-top:22px;
     
 }
@@ -202,5 +202,22 @@ input[type=text], select {
 }
 
 .c3 .bigCoach {
+
+    width:200px;
+    float:right; 
+
     padding-top: 15px;
+}
+
+
+
+.c3 h1 {
+   
+    padding-left: 40px;
+    padding-bottom: 10px;
+
+}
+
+.padB20 {
+    padding-bottom: 13px;
 }

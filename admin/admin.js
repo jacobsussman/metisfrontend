@@ -30,6 +30,45 @@ $(document).ready(function () {
 	}, function() {
     	$( this ).css("text-decoration", "none");
 	});
+    
+    $( ".coach1" ).hover(function() {
+    	$( this ).css("text-decoration", "underline");
+	}, function() {
+    	$( this ).css("text-decoration", "none");
+	});
+    
+    $( ".coach2" ).hover(function() {
+    	$( this ).css("text-decoration", "underline");
+	}, function() {
+    	$( this ).css("text-decoration", "none");
+	});
+    
+    $( ".coach3" ).hover(function() {
+    	$( this ).css("text-decoration", "underline");
+	}, function() {
+    	$( this ).css("text-decoration", "none");
+	});
+    
+    $( ".coach4" ).hover(function() {
+    	$( this ).css("text-decoration", "underline");
+	}, function() {
+    	$( this ).css("text-decoration", "none");
+	});
+    
+    $(".back").hover(function () {
+		$(this).attr("src", "../media/img/backToDashBlack.svg");
+	}, function () {
+		$(this).attr("src", "../media/img/backToDashGrey.svg");
+	});
+    
+    
+    $( ".back" ).hover(function() {
+    	$( this ).css("opacity", "1");
+	}, function() {
+    	$( this ).css("opacity", "0.5");
+	});
+    
+    
 	
 //	$(".navIcon").hover(function () {
 //		$(this).toggleClass("navHover");
