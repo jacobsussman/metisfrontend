@@ -146,3 +146,8 @@ input {
 .pad150 {
     height:150px;
 }
+
+.block {
+    display:block;
+    padding: 5px 0px;
+}

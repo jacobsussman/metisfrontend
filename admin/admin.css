@@ -251,6 +251,7 @@ html {
 }
 
 .left {
+    float:left;
 }
 
 .right {

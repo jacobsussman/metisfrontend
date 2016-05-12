@@ -18,8 +18,8 @@ $(document).ready(function () {
         location.assign("client.html");
     });
     
-    $( ".question" ).click(function() {
-        location.assign("question.html");
+    $( ".chat" ).click(function() {
+        location.assign("chat.html");
     });
 });
 	
