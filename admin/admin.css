@@ -255,6 +255,7 @@ html {
 }
 
 .right {
+    float:right;
 }
 
 #content p {

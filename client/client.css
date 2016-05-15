@@ -2,7 +2,11 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px 80px;
+    
+
 }
 
 .client {
@@ -14,6 +18,7 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .client p {
@@ -23,7 +28,6 @@
 }
 
 .settings {
-    padding-top:7px;
     padding-right: 15px;
 }
 
@@ -33,6 +37,7 @@
 
 .logo {
     width:120px;
+    margin:auto;
 }
 
 .c1 .bigCoach {
@@ -227,6 +232,7 @@ input[type=text], select {
     border-radius: 8px;
     padding: 20px 20px;
     display: inline-block;
+    color: #4C4C4C;
 }
 
 .chatFace {
@@ -240,8 +246,7 @@ input[type=text], select {
     position:absolute;
     bottom:0px;
     
-    float:left;
-    width:90px;
+    width:70px;
     padding-right:10px;
 /*
     display: flex;
@@ -253,13 +258,150 @@ input[type=text], select {
 
 .convo {
 /*    display:table;*/
+    width:63%;
+    position:absolute;
+    left:37%;
+    padding-top: 20px;
+    top:130px;
+    bottom:0px;
     
 }
 
-.txtBlock {
-    margin-left:105px;
+.coachBlock {
+    position:relative;
+    left:85px;
+    
 }
 
 .leftBlock {
     position:relative;
+        padding-left: 40px;
+    margin-bottom: 15px;
+
+
+}
+
+.clientChat {
+    width:100%;
+    
+}
+
+.chatLogo {
+    width:140px;
+}
+
+.summary {
+    float:left;
+    
+    padding-left:65px;
+    padding-right:50px;
+    border-right-style: solid;
+    border-right-color:#B6B6B6;
+    border-right-width: 1px;
+    padding-top:50px;
+/*    height: calc( 100% - 130px );*/
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    
+    
+}
+
+.sumPic {
+    width:200px;
+    margin:auto;
+    display:block;
+    margin-bottom: 30px;
+}
+
+.clientChat h1 {
+    font-size:1.9em;
+    font-weight:500;
+    
+}
+
+.borderHolder {
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #B6B6B6;
+    height:130px;
+}
+
+.clientChat p {
+    font-size: 1.15em;
+    font-weight: 200;
+    
+    
+    
+}
+
+.summary p {
+    
+    padding-top: 20px;
+    
+}
+
+.sumHolder {
+ position: absolute;
+    top: 130px;
+    bottom: 0;
+    width: 37%;
+}
+
+.rightBlock {
+    float:right;
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+
+.blueChat {
+    background-color:#536DFF;
+    border-radius: 8px;
+    padding: 20px 20px;
+    display: inline-block;
+    color: white;
+    max-width: 60%;
+}
+
+.right {
+    float:right;
+}
+
+.chatForm {
+    padding-left: 40px;
+    padding-right: 40px;
+    position:absolute;
+    bottom:20px;
+    right:0px;
+    left:0px;
+}
+
+.chatInput {
+    padding-bottom: 20px;
+    height:120px;
+}
+
+.chatBox {
+    border-radius: 8px;
+    border-style: solid;
+    border-color:#F1F0F0;
+    border-width: 5px;
+    width: 100%;
+    outline: none;
+    resize: none;
+    height:40px;
+    padding-bottom: 20px;
+}
+
+.chatButton {
+    float:right;
+    background-color:#536DFF;
+    color:white;
+    border-radius: 9px;
+    margin-top: 5px;
+}
+
+.submit {
+    padding:12px 12px;
+    
 }

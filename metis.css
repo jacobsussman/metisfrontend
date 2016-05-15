@@ -151,3 +151,12 @@ input {
     display:block;
     padding: 5px 0px;
 }
+
+.center {
+    margin:auto;
+    display:block;
+}
+
+.pad65 {
+    height:65px;
+}

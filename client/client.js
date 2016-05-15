@@ -23,3 +23,17 @@ $(document).ready(function () {
     });
 });
 	
+
+//
+//<textarea rows="4" cols="50" placeholder="Write Nancy a message...">
+//                
+//            </textarea>
+
+//<div class="chatForm">
+//            <form class="chatInput" action="action_page.php">
+//                <input type="text" name="message" placeholder="Write Nancy a message..."><br>
+//            </form>
+//            <div class="buttons">
+//                <h5 class="blue start">Submit</h5>
+//            </div>
+//        </div>
