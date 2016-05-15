@@ -37,7 +37,7 @@ $(document).ready(function () {
 //    });
 
 	$( ".chatCell" ).click(function() {
-        $( "list" ).addClass( ".backWhite" );
+        $(".list>.cellHighlight").removeClass("cellHighlight");
         $( this ).addClass( "cellHighlight" );
     });
     
