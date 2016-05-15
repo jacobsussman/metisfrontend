@@ -2,8 +2,9 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0px 80px;
     
 
@@ -230,9 +231,10 @@ input[type=text], select {
 .greyChat {
     background-color:#F1F0F0;
     border-radius: 8px;
-    padding: 20px 20px;
+    padding: 15px 20px;
     display: inline-block;
     color: #4C4C4C;
+    max-width: 55%;
 }
 
 .chatFace {
@@ -256,11 +258,11 @@ input[type=text], select {
     
 }
 
-.convo {
+.coachChat .convo {
 /*    display:table;*/
-    width:63%;
+    width:70%;
     position:absolute;
-    left:37%;
+    left:30%;
     padding-top: 20px;
     top:130px;
     bottom:0px;
@@ -275,26 +277,29 @@ input[type=text], select {
 
 .leftBlock {
     position:relative;
-        padding-left: 40px;
-    margin-bottom: 15px;
+    padding-left: 30px;
+    margin-bottom: 11px;
+    width:100%;
 
 
 }
 
 .clientChat {
     width:100%;
+    overflow: hidden;
     
 }
 
 .chatLogo {
     width:140px;
+    padding-right: 27px;
 }
 
 .summary {
     float:left;
     
-    padding-left:65px;
-    padding-right:50px;
+    padding-left:50px;
+    padding-right:40px;
     border-right-style: solid;
     border-right-color:#B6B6B6;
     border-right-width: 1px;
@@ -324,12 +329,14 @@ input[type=text], select {
     border-bottom-style:solid;
     border-bottom-width: 1px;
     border-bottom-color: #B6B6B6;
-    height:130px;
+    height:110px;
 }
 
 .clientChat p {
     font-size: 1.15em;
     font-weight: 200;
+    width:100%;
+    line-height: 170%;
     
     
     
@@ -342,25 +349,29 @@ input[type=text], select {
 }
 
 .sumHolder {
- position: absolute;
-    top: 130px;
+    position: absolute;
+    top:110px;
     bottom: 0;
-    width: 37%;
+    width: 34%;
+    overflow: scroll;
+/*    padding-bottom: 20px;*/
 }
 
 .rightBlock {
     float:right;
-    padding-right: 20px;
-    margin-bottom: 25px;
+    padding-right: 25px;
+    margin-bottom: 14px;
+    width:100%;
+    
 }
 
 .blueChat {
     background-color:#536DFF;
     border-radius: 8px;
-    padding: 20px 20px;
+    padding: 15px 20px;
     display: inline-block;
     color: white;
-    max-width: 60%;
+    max-width: 55%;
 }
 
 .right {
@@ -399,9 +410,115 @@ input[type=text], select {
     color:white;
     border-radius: 9px;
     margin-top: 5px;
+    position:relative;
+    left:12px;
+    
 }
 
 .submit {
     padding:12px 12px;
     
+}
+
+.convoHolder {
+    overflow: scroll;
+    position: absolute;
+    top:0;
+    bottom:150px;
+    width:100%;
+}
+
+.listHolder {
+     position: absolute;
+    top:110px;
+    bottom: 0;
+    width: 30%;
+    overflow: scroll;
+}
+
+.chatCell {
+    border-bottom-style: solid;
+    border-bottom-color:#B6B6B6;
+    border-bottom-width: 1px;
+    padding: 18px 25px;
+ 
+    
+}
+
+.cellHighlight {
+    background-color:#E0EFFF;
+}
+
+.list {
+   
+    border-right-style: solid;
+    border-right-color:#B6B6B6;
+    border-right-width: 1px;
+/*
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+*/
+    padding-top:1px;
+}
+
+.coachChat p {
+    font-size: 1.15em;
+    font-weight: 200;
+    line-height: 150%;
+
+}
+
+
+
+.list h3 {
+    font-size: 1em;
+    font-weight: 200;
+/*    padding-right: 10px;*/
+    line-height: 180%;
+    color:#5D5D5D;
+}
+
+.list h1 {
+    font-size: 1.45em;
+    font-weight: 500;
+    display:inline-block;
+    padding-right: 15px
+}
+
+.titleRow {
+    padding-bottom: 10px;
+    
+}
+
+.list h2 {
+    display:inline-block;
+    font-weight: 100;
+    font-style: italic;
+    color:#5D5D5D;
+/*
+    display: relative;
+    bottom:20px;
+*/
+    font-size: 1.0em;
+}
+
+.clientChat .convo {
+    width:66%;
+    position:absolute;
+    left:34%;
+    padding-top: 20px;
+    top:130px;
+    bottom:0px;
+    
+}
+
+.headerLeft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whiteBack {
+    background-color: white;
 }

@@ -22,6 +22,12 @@ $(document).ready(function () {
     $( ".clientLink" ).click(function() {
         location.assign("client/client.html");
     });
+    $( ".chatLink" ).click(function() {
+        location.assign("client/chat.html");
+    });
+    $( ".coachLink" ).click(function() {
+        location.assign("coach/coach.html");
+    });
     $( ".adminLink" ).click(function() {
         location.assign("admin/admin.html");
     });
@@ -30,6 +36,10 @@ $(document).ready(function () {
 //        location.assign("signUp.html");
 //    });
 
-	
+	$( ".chatCell" ).click(function() {
+        $( "list" ).addClass( ".backWhite" );
+        $( this ).addClass( "cellHighlight" );
+    });
+    
 	
 });

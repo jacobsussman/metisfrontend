@@ -60,7 +60,7 @@ body {
 }
 
 #index h1 {
-    font-size:1.5em;
+    font-size:1.3em;
     
     font-weight:500;
     padding-left: 20%;
@@ -149,7 +149,8 @@ input {
 
 .block {
     display:block;
-    padding: 5px 0px;
+    padding: 2px 0px;
+    clear: both;
 }
 
 .center {
@@ -159,4 +160,8 @@ input {
 
 .pad65 {
     height:65px;
+}
+
+.top10 {
+    top:7px;
 }
